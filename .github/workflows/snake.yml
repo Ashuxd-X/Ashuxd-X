@@ -1,15 +1,22 @@
-name: GitHub Snake Game
+name: Generate Snake
 
 on:
   # Schedule the workflow to run daily at midnight UTC
   schedule:
-    - cron: "0 0 * * *"
+    - cron: "0 */12 * * *"
   # Allow manual triggering of the workflow
   workflow_dispatch:
   # Trigger the workflow on pushes to the main branch
   push:
     branches:
       - main
+
+# Add permissions for the GitHub Actions bot
+permissions:
+  contents: write
+  pages: write
+  id-token: write
+
 jobs:
   generate:
     runs-on: ubuntu-latest
