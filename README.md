@@ -63,7 +63,11 @@
 
 ## 🐍 Contribution Snake
 
-![Snake animation](https://github.com/ashuxd-x/ashuxd-x/blob/output/github-contribution-grid-snake.svg)
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/ashuxd-x/ashuxd-x/output/github-snake-dark.svg" />
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/ashuxd-x/ashuxd-x/output/github-snake.svg" />
+  <img alt="github-snake" src="https://raw.githubusercontent.com/ashuxd-x/ashuxd-x/output/github-snake.svg" />
+</picture>
 
 ## 📈 Contribution Graph
 
